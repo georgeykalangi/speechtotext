@@ -23,9 +23,6 @@ Before running the script, make sure you have the following installed:
   ```bash
   python --version
 
-
-pip install torch torchvision torchaudio whisper faster-whisper pydub
-brew install ffmpeg
 Install Required Dependencies
 Run the following command to install the necessary libraries:
 
@@ -53,6 +50,10 @@ Rename your audio file to meeting.m4a (or update the script with your file name)
 
 2. Run the Script
 Run the Python script to generate transcripts and meeting notes:
+
+bash
+Copy
+Edit
 python stt.py
 3. View Meeting Notes
 After the script finishes, it will generate a file:
@@ -70,7 +71,9 @@ Runs on CPU (since MPS is not supported).
 5-10x faster, but slightly less accurate.
 To switch between them, update the stt.py script:
 
-
+python
+Copy
+Edit
 USE_FASTER_WHISPER = True  # Set to False to use OpenAI Whisper
 📌 Troubleshooting
 Issue: "unsupported device mps" in Faster-Whisper
@@ -82,5 +85,9 @@ Issue: Script is too slow
 Issue: No transcription output
 ✅ Fix: Ensure FFmpeg is installed:
 
-
+bash
+Copy
+Edit
 ffmpeg -version
+📜 License
+This project is licensed under the MIT License.
