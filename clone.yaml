@@ -1,0 +1,10 @@
+
+
+
+### **🔹 Next Steps**
+✅ Copy-paste this **README.md** into your GitHub repository.  
+✅ Commit & push it using:
+```bash
+git add README.md
+git commit -m "Added README with prerequisites and setup"
+git push origin main
