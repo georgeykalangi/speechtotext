@@ -6,7 +6,7 @@ It supports **Apple Silicon GPU (MPS) acceleration** for Mac Mini M4 and allows 
 
 ---
 
-## ⚡ Features
+## Features
 Converts `.m4a` audio files to `.wav` format  
 Transcribes speech using **Whisper AI or Faster-Whisper**  
 Supports **Apple Silicon GPU (MPS) acceleration**  
